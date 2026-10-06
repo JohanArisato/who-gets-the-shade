@@ -1,0 +1,43 @@
+id,uhf,name,borough,surface_temp_f,tree_canopy_pct,vegetation_pct,poverty_pct,heat_ed_rate,heat_ed_years
+101,101,Kingsbridge - Riverdale,Bronx,90.4,46.9313,61.9,15.19,5.470000000000001,10
+102,102,Northeast Bronx,Bronx,95.9,20.4548,34.3,14.87,8.22,10
+103,103,Fordham - Bronx Park,Bronx,94.2,25.8705,38.2,32.56,8.83,10
+104,104,Pelham - Throgs Neck,Bronx,93.3,22.3106,42.4,22.84,8.2,10
+105,105,Crotona - Tremont,Bronx,95.5,21.4424,30.9,39.31,10.91,10
+106,106,High Bridge - Morrisania,Bronx,96.9,12.986,18.2,38.67,9.73,10
+107,107,Hunts Point - Mott Haven,Bronx,98.1,7.084,16.0,41.37,11.15,10
+201,201,Greenpoint,Brooklyn,96.5,8.8518,12.1,22.79,6.26,10
+202,202,Downtown  - Heights - Slope,Brooklyn,95.0,15.9554,19.6,15.02,12.28,10
+203,203,Bedford Stuyvesant - Crown Heights,Brooklyn,96.3,17.5919,23.5,25.92,12.41,10
+204,204,East New York,Brooklyn,96.1,14.7548,27.1,28.56,12.16,10
+205,205,Sunset Park,Brooklyn,93.4,15.0487,26.5,29.97,5.86,10
+206,206,Borough Park,Brooklyn,95.5,16.4552,20.3,26.71,4.2,10
+207,207,East Flatbush - Flatbush,Brooklyn,95.4,21.0179,28.2,17.03,7.290000000000001,10
+208,208,Canarsie - Flatlands,Brooklyn,92.6,16.3666,40.3,12.2,9.47,10
+209,209,Bensonhurst - Bay Ridge,Brooklyn,93.7,14.2306,24.7,14.9,4.15,10
+210,210,Coney Island - Sheepshead Bay,Brooklyn,94.9,15.2418,22.7,19.31,5.9399999999999995,10
+211,211,Williamsburg - Bushwick,Brooklyn,97.9,12.5158,16.8,30.53,14.830000000000002,10
+301,301,Washington Heights - Inwood,Manhattan,92.5,27.2105,33.0,23.5,7.82,10
+302,302,Central Harlem - Morningside Heights,Manhattan,95.4,20.6768,26.8,28.5,10.91,10
+303,303,East Harlem,Manhattan,95.8,14.5933,30.2,34.31,14.440000000000001,10
+304,304,Upper West Side,Manhattan,93.4,22.3844,26.7,11.22,3.88,10
+305,305,Upper East Side,Manhattan,93.8,17.0266,20.2,6.2,2.63,10
+306,306,Chelsea - Clinton,Manhattan,94.6,7.1955,7.8,13.15,5.1,10
+307,307,Gramercy Park -  Murray Hill,Manhattan,93.7,10.5076,10.9,8.81,3.4299999999999997,10
+308,308,Greenwich Village - Soho,Manhattan,94.7,9.3442,9.7,9.74,3.8600000000000003,10
+309,309,Union Square - Lower East Side,Manhattan,94.6,20.6023,24.1,21.35,5.0,10
+310,310,Lower Manhattan,Manhattan,91.3,14.1067,22.6,10.09,5.29,10
+401,401,Long Island City - Astoria,Queens,96.8,10.411,17.0,14.61,7.7,10
+402,402,West Queens,Queens,96.4,13.4604,23.2,16.08,5.33,10
+403,403,Flushing - Clearview,Queens,94.0,19.8521,35.2,15.86,4.15,10
+404,404,Bayside - Little Neck,Queens,92.5,34.1789,52.0,8.6,4.180000000000001,10
+405,405,Ridgewood - Forest Hills,Queens,93.3,26.3968,43.9,11.2,5.54,10
+406,406,Fresh Meadows,Queens,93.8,26.1985,44.3,13.3,4.04,10
+407,407,Southwest Queens,Queens,95.1,15.6821,27.8,13.52,6.640000000000001,10
+408,408,Jamaica,Queens,95.9,20.087,31.1,13.46,7.05,10
+409,409,Southeast Queens,Queens,94.3,21.7619,39.2,6.78,4.59,10
+410,410,Rockaway,Queens,92.1,13.2571,35.8,19.48,6.25,10
+501,501,Port  Richmond,Staten Island,91.5,21.5901,35.8,22.13,15.280000000000001,10
+502,502,Stapleton - St. George,Staten Island,91.3,30.092,48.5,18.67,12.08,10
+503,503,Willowbrook,Staten Island,88.6,30.9026,59.1,9.57,8.03,10
+504,504,South Beach - Tottenville,Staten Island,89.4,31.9619,55.2,7.65,8.91,10

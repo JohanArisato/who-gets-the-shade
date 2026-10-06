@@ -1,0 +1,165 @@
+{
+  "n": 42,
+  "morans_i": {
+    "surface_temp_f": {
+      "I": 0.269,
+      "p_sim": 0.0015
+    },
+    "tree_canopy_pct": {
+      "I": 0.266,
+      "p_sim": 0.0017
+    },
+    "vegetation_pct": {
+      "I": 0.427,
+      "p_sim": 0.0001
+    },
+    "poverty_pct": {
+      "I": 0.385,
+      "p_sim": 0.0001
+    },
+    "heat_ed_rate": {
+      "I": 0.333,
+      "p_sim": 0.0004
+    }
+  },
+  "heat_on_canopy": {
+    "ols_slope": -0.174,
+    "ols_r2": 0.425,
+    "ols_p": 2.8672409813368186e-06,
+    "lag_slope": -0.154,
+    "lag_rho": 0.441,
+    "error_slope": -0.183,
+    "error_lambda": 0.63,
+    "ols_aic": 162.8,
+    "lag_aic": 159.2,
+    "error_aic": 151.6
+  },
+  "heat_illness": {
+    "r_poverty": 0.594,
+    "r_temperature": 0.203,
+    "r_canopy": -0.039,
+    "coef_temperature": -0.214,
+    "p_temperature": 0.369,
+    "coef_poverty": 0.239,
+    "p_poverty": 6.428194386544617e-05,
+    "r2": 0.367
+  },
+  "prediction": {
+    "features": [
+      "surface_temp_f",
+      "tree_canopy_pct",
+      "vegetation_pct",
+      "poverty_pct"
+    ],
+    "r2_random_5fold": 0.259,
+    "r2_leave_one_borough_out": -0.269,
+    "r2_lobo_by_borough": {
+      "Bronx": -1.497,
+      "Brooklyn": -0.208,
+      "Manhattan": 0.39,
+      "Queens": -6.586,
+      "Staten Island": -4.4
+    }
+  },
+  "ranking_rules": {
+    "canopy_gap": {
+      "poorest_third_in_top10": 4,
+      "top10": [
+        "Hunts Point - Mott Haven",
+        "Chelsea - Clinton",
+        "Greenpoint",
+        "Greenwich Village - Soho",
+        "Long Island City - Astoria",
+        "Gramercy Park -  Murray Hill",
+        "Williamsburg - Bushwick",
+        "High Bridge - Morrisania",
+        "Rockaway",
+        "West Queens"
+      ]
+    },
+    "hottest_surface": {
+      "poorest_third_in_top10": 6,
+      "top10": [
+        "Hunts Point - Mott Haven",
+        "Williamsburg - Bushwick",
+        "High Bridge - Morrisania",
+        "Long Island City - Astoria",
+        "Greenpoint",
+        "West Queens",
+        "Bedford Stuyvesant - Crown Heights",
+        "East New York",
+        "Northeast Bronx",
+        "Jamaica"
+      ]
+    },
+    "canopy_gap_and_heat": {
+      "poorest_third_in_top10": 6,
+      "top10": [
+        "Hunts Point - Mott Haven",
+        "Williamsburg - Bushwick",
+        "Greenpoint",
+        "Long Island City - Astoria",
+        "High Bridge - Morrisania",
+        "West Queens",
+        "Chelsea - Clinton",
+        "Greenwich Village - Soho",
+        "East New York",
+        "East Harlem"
+      ]
+    },
+    "heat_illness": {
+      "poorest_third_in_top10": 7,
+      "top10": [
+        "Port  Richmond",
+        "Williamsburg - Bushwick",
+        "East Harlem",
+        "Bedford Stuyvesant - Crown Heights",
+        "Downtown  - Heights - Slope",
+        "East New York",
+        "Stapleton - St. George",
+        "Hunts Point - Mott Haven",
+        "Crotona - Tremont",
+        "Central Harlem - Morningside Heights"
+      ]
+    },
+    "equity_weighted": {
+      "poorest_third_in_top10": 9,
+      "top10": [
+        "Hunts Point - Mott Haven",
+        "Williamsburg - Bushwick",
+        "East Harlem",
+        "High Bridge - Morrisania",
+        "East New York",
+        "Crotona - Tremont",
+        "Bedford Stuyvesant - Crown Heights",
+        "Greenpoint",
+        "Central Harlem - Morningside Heights",
+        "Long Island City - Astoria"
+      ]
+    }
+  },
+  "robustness": {
+    "weightings": 5000,
+    "threshold": 0.9,
+    "robust_priorities": [
+      "Hunts Point - Mott Haven",
+      "Williamsburg - Bushwick",
+      "East Harlem",
+      "East New York",
+      "High Bridge - Morrisania",
+      "Bedford Stuyvesant - Crown Heights"
+    ],
+    "top10_share": {
+      "Hunts Point - Mott Haven": 1.0,
+      "Williamsburg - Bushwick": 1.0,
+      "East Harlem": 0.999,
+      "East New York": 0.994,
+      "High Bridge - Morrisania": 0.989,
+      "Bedford Stuyvesant - Crown Heights": 0.922
+    }
+  },
+  "port_richmond": {
+    "surface_temp_f": 91.5,
+    "heat_ed_rate": 15.28
+  }
+}

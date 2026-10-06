@@ -1,0 +1,9 @@
+geopandas>=1.0
+pandas>=2.2
+numpy>=1.26
+libpysal>=4.10
+esda>=2.5
+spreg>=1.4
+scikit-learn>=1.4
+matplotlib>=3.8
+pytest>=8
