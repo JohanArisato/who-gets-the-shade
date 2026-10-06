@@ -1,5 +1,7 @@
 # Who Gets the Shade? Ranking New York Neighborhoods for Tree Planting
 
+> 🌐 [Interactive map](https://johanarisato.github.io/geoai-for-cities/explore/shade.html) · [Full write-up on GeoAI for Cities](https://johanarisato.github.io/geoai-for-cities/) · [Portfolio](https://johanarisato.github.io/Johan.github.io/)
+
 **Johan Fernandez** · Working paper, 2026 · Not yet peer reviewed
 
 When a city ranks neighborhoods for tree planting, the ranking rule decides who benefits first. This study uses public data for all 42 New York City health neighborhoods (UHF42) to test two things:
